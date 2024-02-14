@@ -6,7 +6,7 @@
  * @param {string} key - The key to group the objects by.
  * @returns {Array} - The grouped array.
  */
-function groupByValue(array, key) {
+function groupByKey(array, key) {
   const result = [];
   const map = new Map();
   for (const item of array) {
